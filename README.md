@@ -1,5 +1,7 @@
 # jenkin
++++++++++++++++++++++++++++++
 maven jenkins
+++++++++++++++++++++++++++++++++
 go to eclipse
 Create a Maven Project - > File - > New -> Maven Project!
 Select the quickstart archetype under org.apache.maven.archetypes and click on Next! select artifacts click on ok
@@ -15,7 +17,6 @@ Now Run the Project as Java Application to test the output!
 Select the Created project from the list - > Click Ok!
 In the console we can view the output of the project!
 Next is to push the project into GitHub, for this, create a new repository in GitHub!
-Next is to push the project into GitHub, for this, create a new repository in GitHub!
 Click on create repository!
 Copy the HTTPs URL as shown to be copied into Jenkins!
 Open Git Bash to push the project into GitHub!
@@ -26,13 +27,21 @@ $ git remote -v
 $ git push origin -u main
 now refresh by the github we see all will be uploaded here
 open jenkins -> freestyle project-> scm paste the url of git -> main
-first configure the jenkins by java and maven
-add the plugins by 
-maven integration
-build pipeline
-pipeline utility
-copy articats
-deploy to cintainer these are must for maven project
++++++++++++++++++++++++++++++++++
+first configure the jenkins by 
++++++++++++++++++++++++++++++++++
+1.java 
+2.maven
+3.git
+++++++++++++++++++++++++++++++
+next add the plugins of
++++++++++++++++++++++++++++++++
+1.maven integration
+2.build pipeline
+3.pipeline utility
+4.copy articats
+5.deploy to cintainer these are must for maven project
+++++++++++++++++++++++++++++++++++++++++++++++++++
 in maven Follow the same goals as done in eclipse starting with clean and install![
 Now in post build actions-> select Archive the artifacts, to send the output of build project to the testing team!
 If we want to archive all the artifacts type **/* as shown!
@@ -49,9 +58,3 @@ Create a pipeline by clicking on + symbol in the dashboard ->a pipeline is a col
 Give a name to the pipeline->select Build Pipeline View->create!
 Select the first project to trigger the execution->build project!
 Click on Run -> click on the small black box to open the console to check if the build is success!
-
-
-
-
-
-
