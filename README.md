@@ -18,10 +18,10 @@ Next is to push the project into GitHub, for this, create a new repository in Gi
 Next is to push the project into GitHub, for this, create a new repository in GitHub!
 Click on create repository!
 Copy the HTTPs URL as shown to be copied into Jenkins!
-Open Git Bash to push the project into GitHub![image](https://user-images.githubusercontent.com/101937605/182816082-2bce5a13-dc6c-4e5e-b141-06fde6e1f68b.png)
+Open Git Bash to push the project into GitHub!
 copy the eclipse file make into working directory by git init
 now copy the http code by 
-$ git remote add origin http code https://github.com/archanareddyse/mavenweb.git
+$ git remote add origin http code https://github.com/archanareddyse/mavenjava.git
 $ git remote -v
 $ git push origin -u main
 now refresh by the github we see all will be uploaded here
